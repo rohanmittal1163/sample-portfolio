@@ -1,0 +1,111 @@
+<!Doctype html>
+<html>
+<head><link rel="icon" type="images/x-icon" href="icon.png">
+<title>form</title>
+</head>
+<body bgcolor="#48CCCD ">
+<form action="iframe.html" method="get" autocomplete="on" accept-charset="utf-8" target="_blank" link="external" enctype="multipart/form-data"><center>
+<h1> <u>APPLICATION FORM</u></h1>
+<font face="times new roman" color="white">Note: the fields with asterisk(*) are required to be filled</font>
+<fieldset>
+<legend><h3>Step:1 Personal Details</h3></legend>
+<label for="fname">First Name:*</label>
+<input type="text" id="fname" placeholder="enter your first name" size=25 required autofocus> <br>
+<label for="lname">Last Name:*</label>
+<input type="text" id="lname" placeholder="enter your surname" size=25 required><br>
+ <label for="DOB">Date -of -birth:*</label>
+<input type="datetime-local" id="DOB" required><br>
+ Areas of Interest:
+<label for="singing"><input type="checkbox" id="singing">Singing</label>
+<label for="dancing"><input type="checkbox" id="dancing">Dancing</label>
+<label for="reading"><input type="checkbox" id="reading">Reading</label>
+<label for="swimming"><input type="checkbox" id="swimming">Swimming</label>
+<label for="sleeping"><input type="checkbox" id="sleeping">Sleeping</label><br>
+Gender:
+<label><input type="radio" name="gender">Male</label>
+<label><input type="radio" name="gender">FeMale</label><br>
+<label for="color">Choose your favourite color:</label>
+<input type="color" id="color" ><br>
+BMI:*
+<label for="weight">Weight(in kg):</label><input type="range" min=50 max=110 step=2 required><br>
+<label for="height">Height(in mt.):</label><input type="range" min=50 max=110 step=2 required><br>
+</fieldset>
+<fieldset>
+<legend><h3>Step:2 Educational Qualifications</h3></legend>
+<label for="class 12">Year of passing class 12:</label>
+<select size=1 multiple>
+<option value=2021>2021</option>
+<option value=2020>2020</option>
+<option value=2019>2019</option>
+<option selected value=2018>2018</option>
+<option value=2017>2017</option>
+<option value=2016>2016</option>
+<option value=2015>2015</option>
+<option value=2014>2014</option>
+<option value=2013>2013</option>
+</select><br>
+<label for="percent"> Percentage:(in%)*</label>
+<input type="number" placeholder="class12th percentage" min=60 max=100 id="percent" size=25 maxlength=3 required><br>
+<label for="file">Select a file:*<input type="file" id="file" multiple accept=".png"></label><br>
+ Course:
+<label ><input type="radio" id="course" name="course">Btech</label>
+<label ><input type="radio" id="course" name="course">BCom</label>
+<label ><input type="radio" id="course" name="course">BBA</label>
+<label ><input type="radio" id="course" name="course">BCA</label>
+<label ><input type="radio" id="course" name="course">MTech</label><br>
+<label for="college">College:*</label>
+<input type="text" max=50 min=10 required placeholder="enter the college name" size=30><br>
+</fieldset>
+<fieldset><legend><h3>Step:3 Contact Details:</h3></legend>
+<label for="address">Address:*</label>
+<textarea rows=2 cols=20 id="address" required></textarea><br>
+<label for="numer">Phone number:*</label>
+<input type="tel" maxlength=10 id="numer" required><br>
+<label for="email" >E-mail:*</label>
+<input type="email" required size=25 placeholder="example@domain.com" id="email"><br>
+<label for="emailpassword" >Password:*</label>
+<input type="password" required size=25 placeholder="enter your password" maxlength=10 id="emailpassword"><br>
+<label for="country">Country:</label>
+<select multiple size=2><optgroup label="ASIA">
+<option selected>India</option>
+<option>China</option>
+<option>Pakistan</option></optgroup><optgroup label="EUROPE">
+<option>United Kingdom</option>
+<option>Russia</option>
+<option>Germany</option>
+<option>France</option></optgroup>
+</select>
+</fieldset>
+<fieldset><legend><h3>Step:4 Payment Details:</h3></legend>
+Select the Card type:
+<label> <input type="radio" name="crd"><img src="pictures/mastercard.png" alt="error loading image" title="mastercard" width=20 height=18> Mastercard</label>
+<label> <input type="radio" name="crd"><img src="pictures/visa.png" alt="error loading image" title="visa" width=20 height=18> Visa</label>
+<label> <input type="radio" name="crd"><img src="pictures/AmEx.png" alt="error loading image" title="mastercard" width=20 height=18> AmEx</label><br>
+<label for="cvv">CVV:</label><input type="password" maxlength=3 size=20 placeholder="write a 3 digit code" id="cvv"><br>
+<label for="card_holder">Card holder's Name: </label><input type="text" size=25 placeholder="name on the card" id="card_holder"><br>
+<label for="date">Date Of Expiration: </label><input type="date" id="date" min=2020-01-07 max="2030-12-31"><br>
+<label>Choose your bank:</label><input list="bank">
+<datalist id="bank">
+<option value="PNB">
+<option value="HDFC">
+<option value="SBI">
+<option value="CANARA">
+<option value="ICICI">
+<option value="YES">
+</datalist>
+</fieldset>
+<fieldset>
+<legend> <h3>Step:5 Additional Details:</h3></legend>
+<label for="views">Reviews:</label>
+<textarea id="views" placeholder="write your views"></textarea><br>
+<label for="time">Time of submission:</label>
+<input type="time" id="time"><br>
+<label for="week">select a week:</label><input type="week" id="week"><!--opens in chrome--><br>
+<label for="url">Homepage:</label><input type="url" id="urls">
+</fieldset><Br><Br>
+<input type="reset" value="reset now">&nbsp;&nbsp;&nbsp;
+<input type="image" src="pictures/submit.png" alt="submit" width=100px height=30px> 
+</center>
+</form>
+</body>
+</html>

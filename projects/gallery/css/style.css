@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+img{
+	width: 20%;
+	height: 200px !important;
+	
+	cursor: pointer;
+}
+#cbox{
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	position: fixed;
+	top: 200px;
+	right: 90px;
+	opacity: 1;
+	transform: scale(0);
+	transition: 1.2s;
+border: 5px solid;
+border-image-slice: 1;
+	border-image-source: linear-gradient(#ee9ca7 , #ffdde1);
+}
+#ebox{
+ width: 100% !important;
+ height: 100% !important;
+ pointer-events: none;
+}
+.icon{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+	color: black;
+	opacity: 0.5;	
+}
+.icon:hover{
+	color: whitesmoke;
+	transition: 1s;
+	opacity: 1;
+}
+body{
+background:linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url(https://thumbs.dreamstime.com/z/outer-space-vector-doodle-outer-space-vector-doodle-black-white-cartoon-illustration-isolated-over-white-background-115816488.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 190%;
+
+
+}
+
+
+

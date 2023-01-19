@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Comforter&family=Neonderthaw&family=Princess+Sofia&family=Sofia&display=swap&effect=shadow-multiple|fire-animation');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.top{
+	background-color: red;
+	width: 98%;
+	height: 25px;
+	outline: 3px solid tomato;
+	margin-top: 8px;
+	margin-left: 1%;
+}
+.top p{
+	color: whitesmoke;
+	margin-left: 2%;
+	float: left;
+	margin-top:3px;
+}
+.icons{
+	float: right;
+	margin-right:5%;
+	font-size: 20px;
+	margin-top: 5px;
+	color: whitesmoke;
+}
+.fab{
+	margin-right:20px;
+	cursor: pointer;
+}
+.navbar{
+	width: 98.2%;
+	height: 100px;
+	margin-left: 1%;
+	box-shadow: 5px 5px 10px orange;
+	background-color: ghostwhite;
+	position:sticky;
+	top: 0px;
+}
+.navbar img{
+	width: 20% ;
+	height: 110px;
+	float:left;
+}
+.navbar ul{
+	float: right;
+}
+.navbar ul li{
+	list-style-type: none;
+	padding: 20px;
+	line-height: 85px;
+	display: inline-block;
+	text-decoration: none;
+	margin-top: -3%;
+	letter-spacing: 2px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.navbar ul li a:hover{
+	border-bottom-color:red;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	font-family: algerian;
+	font-weight: bold;
+	font-style: italic;
+	transform: scale(1.2);
+}
+.back{
+	background-image: url("../images/beach.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-attachment: fixed;
+	height: 600px;
+	margin-top: 7px;
+	width: 98%;
+	margin-left: 16px;
+	animation: slider 15s infinite linear;
+	box-shadow: 5px 5px 2px black;
+	margin-top: 2px	;
+}
+@keyframes slider{
+	0%{
+		background-image: url(../images/beach.jpg);
+	}
+	25%{
+		background-image: url(../images/2.png);
+	}
+	50%{
+		background-image: url(../images/3.jpg);
+	}
+	75%{
+		background-image: url(../images/4.jpg);
+	}
+}
+.back pre{
+	font-size: 40px;
+	font-family: bookman old style;
+	padding: 40px;
+	line-height: 100px;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+}
+h1{
+	text-align: center;
+	font-family: bookman old style;
+	color: orangered;
+	text-shadow: 3px 3px 10px green;
+}
+.aboutus{
+	margin-top: 4%;
+}
+.aboutus a{
+	position: relative;
+	top: -110px;
+}

@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: bookman old style;
+}
+body{
+	background-image: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.profile{
+	width: 25%;
+	height:auto;
+	background-color: rgba(255, 255, 255, .15);  
+ 	backdrop-filter: blur(5px);
+ 	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.8);
+ 	padding: 40px;
+	position: absolute;
+	top: 10%;
+	left: 35%;
+	/*transform: translate(-50%,-50%) !important;*/
+	border-radius: 20px;
+}
+.img img{
+	width:42%;
+	height: 120px;
+	border-radius: 100%;
+}
+
+.name h1{
+	color: white;
+	font-size:40px;
+	margin: 7% auto;
+}
+
+.about p{
+	color: white;
+	line-height: 25px;
+}
+.icons{
+	color: white;
+	margin: 10% 0%;
+	font-size: 25px !important;
+
+}
+.contact button{
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: hotpink;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.a:hover{
+	background-color: hotpink !important;
+}

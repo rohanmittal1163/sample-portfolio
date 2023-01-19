@@ -1,0 +1,299 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: bookman old style;
+	scroll-behavior: smooth;
+}
+::selection{
+background: lime;
+color: black;
+}
+nav{
+	background-color: transparent;
+	width: 100%;
+	height: auto;
+	position:fixed;
+	top: 0px;
+	z-index: 10;
+}
+nav h1{
+	clear: both;
+	float: left;
+	margin-left: 30px;
+	color: whitesmoke;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+	font-weight: bold;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 18px;
+}
+nav ul li a:hover{
+	color: #99EDC3;
+}
+nav ul li a:hover::after{
+	content: ' ';
+	border-bottom: 4px solid #99EDC3;
+	position: absolute;
+	top: 50px;
+	width: 55px;
+	margin-left: -3.5%;
+}
+#home{
+	color: #99EDC3;
+}
+.banner{
+	background-image: url('https://wallpaperaccess.com/full/5651982.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding-top: 6%;
+}
+.banner img{
+	border-radius: 50%;
+	border: 5px dashed forestgreen;
+}
+.banner p{
+	width: 40vw;
+	color: white;
+	margin: auto;
+	text-align: justify;
+	text-justify: inter-character;
+
+}
+.banner p::first-letter{
+	font-size: 50px;
+	font-family: algerian;
+}
+.banner button{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.icon{
+	font-size: 40px;
+	color: green;
+}
+.achicon{
+	font-size: 40px;
+	float: left;
+	color: green;
+}
+p{
+	text-align: justify;
+	text-justify: inter-word;
+
+}
+.box{
+	color: whitesmoke;
+	background-color: black;
+	border-radius: 10px;
+	height: auto;
+	padding: 30px;
+	margin-top: 1% !important;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('https://c.neh.tw/thumb/f/720/comrawpixel1015301.jpg');
+	background-attachment: fixed;
+}
+.box:hover{
+	transform: scale(1.1) !important;
+}
+.achbox:hover{
+	transform: rotate(-10deg) !important;
+}
+#about,#achieve,#project,#activities{
+	position: relative;
+	top: -100px;
+	left: 0px;
+}
+.up{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	font-size: 40px;
+	cursor: pointer;
+	background-color: whitesmoke;
+	width: 3%;
+	border-radius: 500vw;
+	display: none;
+}
+.achbox{
+	background-color:whitesmoke;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+
+.line::after{
+		content: '';
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #18d26e;
+    bottom: 0;
+    left: calc(50% - 20px);
+	}
+.line::before{
+	content: '';
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: #18d26e;
+    bottom: 0px;
+    left: calc(50% - 60px);
+	}
+
+
+
+.tstack::after{
+		content: '';
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #18d26e;
+    bottom: 0;
+    left: calc(50% - 60px);
+	}
+.tstack::before{
+	content: '';
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 5px;
+    background: #18d26e;
+    bottom: 0px;
+    left: calc(50% - 100px);
+}
+h3{
+	font-size: 40px !important;
+	color: black ;
+}
+
+.figures{
+	background-image: url('https://image.shutterstock.com/image-illustration/easy-panorama-abstract-transparent-low-260nw-1932636158.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.mode{
+	position: fixed;
+	right: 10px;
+	bottom: 60px;
+}
+.storage img{
+	width: 450px;
+	height: 250px !important;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+.owl-carousel img{
+	width: 90px !important	;
+	height: 70px;
+	
+}
+.actbox{
+	background-image: linear-gradient(to bottom,
+		green 30%,
+		white 30%,
+		white 100%);
+	width: 98%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 20px;
+}
+.actbox img{
+	position: relative;
+	top: 20px;
+	left: 0px;
+	width: 80% ;
+	height: 100px;
+}
+.hireq{
+padding: 50px;
+background: url('https://media.istockphoto.com/photos/lots-of-empty-space-for-lettering-and-design-empty-light-green-flat-picture-id1280738777?k=20&m=1280738777&s=612x612&w=0&h=t7daE77Gwu5jQCvVBltS2uk34o_BRK85bTaiJoIImkE=');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin-bottom: 10%;
+}
+.hireq button{
+	background-color: transparent;
+	color: White;
+	border-radius: 50px;
+	border: 2px solid rgb(	66, 239, 245);
+	padding: 10px !important;
+	font-size: 20px;
+}
+.hireq button:hover{
+	border: 3px solid whitesmoke;
+	background-color: limegreen;
+}
+.para{
+	font-size: 20px !important;
+}
+.quotes img{
+	width: 171px !important;
+	height: 125px;
+}
+.ts{
+	margin-bottom: 10%;
+}
+.ts img:hover{
+	transform: scale(1.2);
+}
+.tstack{
+	padding-top: 3%;
+}
+.footer{
+	background-color: black;
+	color: whitesmoke;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	width: 95%;
+	height: 100%;
+}
+.footer a{
+	text-decoration: none;
+	color: White;
+}
+.touch{
+	font-size: 60px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	color: white;	
+}
+.touch:hover{
+	color: lightgreen;
+	transform: scale(1.3);
+}
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+

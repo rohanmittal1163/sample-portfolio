@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+<head>
+<title>forms</title>
+</head>
+<body bgcolor="lightgreen">
+<center>
+<form action="revision.html" target="_blank" method="get" autocomplete="on" rel="help">
+<font size="4" color="purple"> The feilds with * are required to be filled</font>
+
+<fieldset><legend>
+<h2>Step:1 Personal Details</h2></legend>
+<label for="fname">First Name:</label><input type="text" name="fname" placeholder="enter your first name" required><br>
+<label for="lname">Last Name:</label><input type="text" name="lname" value="enter your last name" required><br>
+<label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><input type="email" value="example@domain.com" id="email" name="email" required> <br>
+<label for="gender">Gender:</label><label><input type="radio" name="j" required>Male</label><label><input type="radio" name="j">FeMale</label><br>
+<label for="interest">Areas of Interest:</label>
+<label><input type="checkbox">singing</label>
+<label><input type="checkbox">dancing</label>
+<label><input type="checkbox">playing</label>
+<label><input type="checkbox">reading</label>
+<label><input type="checkbox">swimming</label>
+</fieldset>
+
+<fieldset><legend>
+<h2>Step :2 Delivery Address</h2></legend>
+<label for="address">Address:</label><textarea cols=20 rows=2></textarea><br>
+<label for="post_code">Post Code:*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="number" name="post_code"><br>
+<label for="country">Country:*</label><input type="text" name="country"><br>
+<label for="dropdown list">Select State:</label><select>
+<option>Haryana</option>
+<option>Delhi</option>
+<option>Maharashtra</option>
+<option>Madhya Pradesh</option>
+<option>Gujarat</option></select>
+</fieldset>
+
+<fieldset> <legend>
+<h2>Step: 3 Card Details</h2></legend>
+<label for="card_type">Card Type:*</label><input type="radio" name="a">visa
+<input type="radio" name="a">AmEx
+<input type="radio" name="a">MasterCard<br>
+<label for="cvv">CVV:</label><input type="password" name="password"><br>
+<label for="card_name">Name On Card:</label><input type="text" value="enter name on the card" name="card_name"><br><br>
+<label for="expiration_date">Date for expiration:</label><input type="date" name="expiration_date"> <br>
+</fieldset>
+
+<fieldset><legend>
+<h2>Step:4 Additional Information</h2></legend>
+<label for="views">Write your Views:</label><textarea cols=20 rows=2></textarea><br><br>
+<label for="file">Upload Your File:</label><input type="file" value="file" name="file" multiple><br>
+<label for="time">Time of  Submission</label><input type="time" name="time">
+</fieldset>
+
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+
+</form>
+</center>
+</body>
+</html>
